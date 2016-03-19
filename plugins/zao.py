@@ -175,6 +175,6 @@ class ZaoBot(TimerBot):
                     else:
                         self.bot.send_message(
                             message.chat.id,
-                            "你是第{:d}起床的{}".format(
+                            "你是第{:d}个起床的{}".format(
                                 index+1, self._who(message.from_user))
                         )
